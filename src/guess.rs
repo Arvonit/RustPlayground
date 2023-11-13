@@ -1,6 +1,6 @@
-use std::io;
-use std::cmp::Ordering;
 use rand::Rng;
+use std::cmp::Ordering;
+use std::io;
 
 pub fn run() {
     // `gen_range()` is inclusive on the lower bound but exclusive on the upper bound
@@ -8,7 +8,7 @@ pub fn run() {
 
     println!("Guess the number!");
     // println!("BTW the secret number is {}. Don't tell anyone!", secret_number);
-    
+
     loop {
         println!("\nPlease input your guess.");
 
@@ -25,7 +25,7 @@ pub fn run() {
                 continue;
             }
         };
-            
+
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {

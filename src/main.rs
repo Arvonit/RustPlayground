@@ -1,6 +1,6 @@
-mod guess;
+mod rc;
 
 fn main() {
     // println!("Hello, world!");
-    guess::run();
+    rc::run();
 }

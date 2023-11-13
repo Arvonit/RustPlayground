@@ -1,3 +1,3 @@
-# RustPlayground
+# rust_book
 
-My journey through the Rust book.
+My journey through the Rust Book.
